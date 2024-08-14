@@ -1,30 +1,30 @@
 <h1>Análise de Dados de Vendas</h1>
-Objetivo
+<h2>Objetivo</h2>
 O objetivo deste projeto é analisar dados de vendas para identificar padrões, tendências e insights acionáveis. Usaremos um conjunto de dados para explorar a performance das vendas por região, produto e ao longo do tempo, além de criar visualizações para facilitar a interpretação dos dados.
 
-#Estrutura do Projeto
+<h2>Estrutura do Projeto</h2>
 O projeto é estruturado da seguinte forma:
 
-1.Obtenção de Dados: Utilizamos um arquivo CSV contendo os dados de vendas.
-2.Análise Exploratória de Dados (EDA): Realizamos a análise exploratória dos dados para entender as principais métricas e variáveis.
-3.Visualizações: Criamos gráficos para visualizar as tendências de vendas por região, produto e ao longo do tempo.
+<h3>1.Obtenção de Dados:</h3> Utilizamos um arquivo CSV contendo os dados de vendas.
+<h3>2.Análise Exploratória de Dados (EDA):</h3> Realizamos a análise exploratória dos dados para entender as principais métricas e variáveis.
+<h3>3.Visualizações:</h3> Criamos gráficos para visualizar as tendências de vendas por região, produto e ao longo do tempo.
 
-#Instruções para Execução
-1.Pré-requisitos:
-.Python 3.x
-.Bibliotecas Python: pandas, matplotlib, seaborn
+<h2>Instruções para Execução</h2>
+<h3>1.Pré-requisitos:</h3>
+Python 3.x
+Bibliotecas Python: pandas, matplotlib, seaborn
 Você pode instalar as bibliotecas necessárias usando o seguinte comando:
 pip install pandas matplotlib seaborn
 
-#Obtenção dos Dados:
+<h2>Obtenção dos Dados:</h2>
 
-Certifique-se de ter o arquivo vendas.csv no mesmo diretório do script Python. Este arquivo deve conter as colunas Data, Região, Produto, Quantidade e Preço.
+Os dados Csv estão contidos no repositorio do projeto
 
-#Execução:
+<h2>Execução:</h2>
 
 Execute o script Python para realizar a análise e gerar as visualizações.
 
-#Código
+<h2>Código</h2>
 O código para análise e visualização de dados é o seguinte:
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -87,7 +87,7 @@ plt.tight_layout()
 plt.show()
 
 
-#Resultados
+<h2>Resultados</h2>
 Os gráficos gerados pelo script proporcionam uma visão clara das vendas por região, produto e tendências ao longo do tempo. Essas visualizações ajudam a identificar quais regiões e produtos estão performando melhor e como as vendas estão evoluindo ao longo do tempo.
 
 
